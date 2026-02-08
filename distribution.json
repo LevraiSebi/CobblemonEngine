@@ -42,7 +42,7 @@
           "type": "File",
           "required": true,
           "artifact": {
-            "size": 135801078,
+            "size": 135801550,
             "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
             "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar"
           }
@@ -54,7 +54,7 @@
           "type": "File",
           "required": true,
           "artifact": {
-            "size": 2422211,
+            "size": 2425441,
             "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/3wZtvzew/fabric-api-0.116.8%2B1.21.1.jar",
             "path": "mods/fabric-api-0.116.8+1.21.1.jar"
           }
