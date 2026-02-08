@@ -41,30 +41,33 @@
         },
 
         {
-          "id": "cobblemon-fabric-1.7.3",
+          "id": "Cobblemon-fabric-1.7.3+1.21.1.jar",
           "name": "Cobblemon",
-          "type": "FabricMod",
-          "required": { "value": true },
+          "type": "File",
+          "required": true,
           "artifact": {
-            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Cobblemon-fabric-1.7.3+1.21.1.jar"
+            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+            "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar"
           }
         },
         {
-          "id": "fabric-api-0.116.8",
+          "id": "fabric-api-0.116.8+1.21.1.jar",
           "name": "Fabric API",
-          "type": "FabricMod",
-          "required": { "value": true },
+          "type": "File",
+          "required": true,
           "artifact": {
-            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/fabric-api-0.116.8+1.21.1.jar"
+            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/fabric-api-0.116.8+1.21.1.jar",
+            "path": "mods/fabric-api-0.116.8+1.21.1.jar"
           }
         },
         {
-          "id": "axiom-5.2.1",
+          "id": "Axiom-5.2.1-for-MC1.21.1.jar",
           "name": "Axiom",
-          "type": "FabricMod",
-          "required": { "value": false },
+          "type": "File",
+          "required": false,
           "artifact": {
-            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Axiom-5.2.1-for-MC1.21.1.jar"
+            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Axiom-5.2.1-for-MC1.21.1.jar",
+            "path": "mods/Axiom-5.2.1-for-MC1.21.1.jar"
           }
         }
       ]
