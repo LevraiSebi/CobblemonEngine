@@ -8,7 +8,7 @@
       "description": "Serveur CobblemonEngine officiel (Fabric 1.21.1)",
       "icon": "",
       "version": "1.0.0",
-      "address": "CobbleEngine.aternos.me",
+      "address": "CobbleEngine.exaroton.me",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
       "autoconnect": true,
