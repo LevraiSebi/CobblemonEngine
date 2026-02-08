@@ -14,25 +14,26 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "id": "net.fabricmc:fabric-loader:0.17.11",
           "name": "Fabric Loader",
           "type": "Fabric",
           "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar",
-            "size": 1400000
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.11/fabric-loader-0.17.11.jar",
+            "size": 1500000
           },
           "subModules": [
             {
-              "id": "1.21.1-fabric-0.17.2",
+              "id": "1.21.1-fabric-0.17.11",
               "name": "Fabric version.json",
               "type": "VersionManifest",
               "artifact": {
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.2/profile/json",
-                "size": 3000
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.11/profile/json",
+                "size": 4000
               }
             }
           ]
         },
+
         {
           "id": "Cobblemon-fabric-1.7.3+1.21.1.jar",
           "name": "Cobblemon",
@@ -44,6 +45,7 @@
             "size": 129510000
           }
         },
+
         {
           "id": "fabric-api-0.116.8+1.21.1.jar",
           "name": "Fabric API",
