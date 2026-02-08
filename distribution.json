@@ -155,6 +155,26 @@
             "size": 44210201,
             "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Axiom-5.2.1-for-MC1.21.1.jar",
             "path": "mods/Axiom-5.2.1-for-MC1.21.1.jar"
+          },
+          {
+          "id": "cobblemon_smartphone-fabric-1.0.5.jar",
+          "name": "SmartPhone",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 50000000,
+            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/cobblemon_smartphone-fabric-1.0.5.jar",
+            "path": "mods/cobblemon_smartphone-fabric-1.0.5.jar"
+          },
+          {
+          "id": "cobblemon-ui-tweaks-1.0.7.jar",
+          "name": "UiTweaks",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 50000000,
+            "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/cobblemon-ui-tweaks-1.0.7.jar",
+            "path": "mods/cobblemon-ui-tweaks-1.0.7.jar"
           }
         }
       ]
