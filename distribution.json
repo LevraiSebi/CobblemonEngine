@@ -19,10 +19,19 @@
           "type": "Fabric",
           "required": true,
           "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
-            "path": "net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
           },
           "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (version manifest)",
+              "type": "VersionManifest",
+              "required": true,
+              "artifact": {
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.18.4/profile/json"
+              }
+            },
+
             {
               "id": "net.fabricmc:intermediary:1.21.1",
               "name": "Fabric (intermediary)",
