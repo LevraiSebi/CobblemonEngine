@@ -14,14 +14,26 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "1.21.1-fabric-0.17.2",
-          "name": "Fabric Loader (1.21.1 - 0.17.2)",
-          "type": "VersionManifest",
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric Loader",
+          "type": "Fabric",
           "required": true,
           "artifact": {
-            "size": 3500,
-            "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.2/profile/json"
-          }
+            "size": 1400000,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.17.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "required": true,
+              "artifact": {
+                "size": 3500,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.2/profile/json"
+              }
+            }
+          ]
         },
 
         {
