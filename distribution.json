@@ -14,101 +14,21 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "id": "net.fabricmc:fabric-loader:0.18.4",
           "name": "Fabric Loader",
           "type": "Fabric",
+          "required": true,
           "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar",
-            "path": "net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
           },
           "subModules": [
             {
-              "id": "1.21.1-fabric-0.17.2",
-              "name": "Fabric (version.json)",
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (profile json)",
               "type": "VersionManifest",
+              "required": true,
               "artifact": {
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.2/profile/json",
-                "path": "versions/1.21.1-fabric-0.17.2/1.21.1-fabric-0.17.2.json"
-              }
-            },
-            {
-              "id": "net.fabricmc:access-widener:2.1.0",
-              "name": "Fabric (access-widener)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar",
-                "path": "net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "ASM",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar",
-                "path": "org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "ASM (analysis)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar",
-                "path": "org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "ASM (commons)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar",
-                "path": "org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "ASM (tree)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar",
-                "path": "org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "ASM (util)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar",
-                "path": "org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar",
-                "path": "net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.21.1",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
-                "path": "net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.18.4/profile/json"
               }
             }
           ]
@@ -137,7 +57,7 @@
           "id": "Axiom-5.2.1-for-MC1.21.1.jar",
           "name": "Axiom",
           "type": "File",
-          "required": false,
+          "required": true,
           "artifact": {
             "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Axiom-5.2.1-for-MC1.21.1.jar",
             "path": "mods/Axiom-5.2.1-for-MC1.21.1.jar"
