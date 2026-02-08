@@ -1,10 +1,11 @@
 {
   "version": "1.0.0",
+  "rss": "",
   "servers": [
     {
-      "id": "CobblemonEngine",
+      "id": "CobblemonEngine-1.21.1",
       "name": "CobblemonEngine",
-      "description": "Serveur CobblemonEngine officiel",
+      "description": "Serveur CobblemonEngine officiel (Fabric 1.21.1)",
       "icon": "",
       "version": "1.0.0",
       "address": "CobbleEngine.aternos.me",
@@ -40,7 +41,7 @@
         },
 
         {
-          "id": "cobblemon",
+          "id": "cobblemon-fabric-1.7.3",
           "name": "Cobblemon",
           "type": "FabricMod",
           "required": { "value": true },
@@ -49,7 +50,7 @@
           }
         },
         {
-          "id": "fabric-api",
+          "id": "fabric-api-0.116.8",
           "name": "Fabric API",
           "type": "FabricMod",
           "required": { "value": true },
@@ -58,7 +59,7 @@
           }
         },
         {
-          "id": "axiom",
+          "id": "axiom-5.2.1",
           "name": "Axiom",
           "type": "FabricMod",
           "required": { "value": false },
