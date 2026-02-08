@@ -14,47 +14,39 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.17.11",
+          "id": "net.fabricmc:fabric-loader:0.17.2",
           "name": "Fabric Loader",
           "type": "Fabric",
           "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.11/fabric-loader-0.17.11.jar",
-            "size": 1500000
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
           },
           "subModules": [
             {
-              "id": "1.21.1-fabric-0.17.11",
-              "name": "Fabric version.json",
+              "id": "1.21.1-fabric-0.17.2",
+              "name": "Fabric profile",
               "type": "VersionManifest",
               "artifact": {
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.11/profile/json",
-                "size": 4000
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.17.2/profile/json"
               }
             }
           ]
         },
-
         {
-          "id": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+          "id": "cobblemon",
           "name": "Cobblemon",
           "type": "File",
-          "required": true,
           "artifact": {
             "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
-            "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar",
-            "size": 129510000
+            "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar"
           }
         },
-
         {
-          "id": "fabric-api-0.116.8+1.21.1.jar",
+          "id": "fabricapi",
           "name": "Fabric API",
           "type": "File",
-          "required": true,
           "artifact": {
             "url": "https://github.com/LevraiSebi/CobblemonEngine/releases/download/v1.0/fabric-api-0.116.8+1.21.1.jar",
-            "path": "mods/fabric-api-0.116.8+1.21.1.jar",
-            "size": 10000000
+            "path": "mods/fabric-api-0.116.8+1.21.1.jar"
           }
         }
       ]
