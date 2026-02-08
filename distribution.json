@@ -17,9 +17,10 @@
           "id": "net.fabricmc:fabric-loader:0.18.4",
           "name": "Fabric Loader",
           "type": "Fabric",
+          "required": true,
           "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
-            "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+            "path": "net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
           },
           "subModules": [
             {
@@ -29,7 +30,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
-                "path": "libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                "path": "net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
               }
             },
             {
@@ -39,7 +40,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar",
-                "path": "libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+                "path": "net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
               }
             },
 
@@ -50,7 +51,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar",
-                "path": "libraries/org/ow2/asm/asm/9.6/asm-9.6.jar"
+                "path": "org/ow2/asm/asm/9.6/asm-9.6.jar"
               }
             },
             {
@@ -60,7 +61,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar",
-                "path": "libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                "path": "org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
               }
             },
             {
@@ -70,7 +71,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar",
-                "path": "libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                "path": "org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
               }
             },
             {
@@ -80,7 +81,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar",
-                "path": "libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                "path": "org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
               }
             },
             {
@@ -90,7 +91,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar",
-                "path": "libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                "path": "org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
               }
             },
 
@@ -101,7 +102,7 @@
               "classpath": true,
               "artifact": {
                 "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar",
-                "path": "libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
+                "path": "net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
               }
             }
           ]
