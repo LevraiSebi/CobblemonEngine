@@ -10,14 +10,6 @@
       "version": "1.0.0",
       "address": "CobbleEngine.exaroton.me",
       "minecraftVersion": "1.21.1",
-      "javaOptions": {
-        "supported": ">=21 <22",
-        "suggestedMajor": 21,
-        "distribution": "TEMURIN",
-        "ram": { "recommended": 4096, "minimum": 3072 },
-        "platformOptions": [
-          { "platform": "win32", "architecture": "x64", "supported": ">=21 <22", "suggestedMajor": 21, "distribution": "TEMURIN" }
-        ]
       },
       "mainServer": true,
       "autoconnect": true,
