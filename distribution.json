@@ -11,7 +11,7 @@
       "address": "CobbleEngine.exaroton.me",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
-      "javaExecutable": "C:/Program Files/Java/jdk-17/bin/javaw.exe",
+      "javaExecutable": "C:/Program Files/Java/jdk-21/bin/javaw.exe",
       "autoconnect": true,
       "modules": [
         {
